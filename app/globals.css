@@ -19,3 +19,7 @@ html {
 body {
   background: rgb(var(--background-rgb));
 }
+
+.accent-button {
+  @apply text-offwhite bg-accent px-5 py-2 font-bold;
+}
