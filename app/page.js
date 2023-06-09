@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <>
@@ -22,6 +23,16 @@ export default function Home() {
       <section className="w-full px-16 mt-16 md:mt-32">
         <Image src="/ENCORE.png" height={1080} width={1920}></Image>
       </section>
+      <div className="bg-marquee bg-repeat-x my-16 h-24">
+        <Marquee className="m-0 h-full" autoFill>
+          <Image
+            src="/MarqueeText.svg"
+            width={500}
+            height={500}
+            className="mx-1"
+          ></Image>
+        </Marquee>
+      </div>
     </>
   );
 }

@@ -13,6 +13,9 @@ module.exports = {
       offblack: "#151515",
       accent: "#f61354",
     },
+    backgroundImage: {
+      marquee: "url('/MqBq.jpg')",
+    },
   },
   plugins: [],
 };

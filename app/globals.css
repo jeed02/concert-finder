@@ -23,3 +23,7 @@ body {
 .accent-button {
   @apply text-offwhite bg-accent px-8 py-4 font-bold text-xl;
 }
+
+.marquee {
+  background-image: url("/MqBg.jpg");
+}
